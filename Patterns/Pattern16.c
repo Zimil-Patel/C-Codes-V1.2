@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main(){
+
+	short i, j;
+	
+	for(i = 5; i >= 1; i--){
+	
+		for(j = 1; j <= i; j++){
+		
+		if (i % 2 == 0)
+			(j % 2 == 0) ? printf("1") : printf("0");
+		else
+			(j % 2 == 0) ? printf("0") : printf("1");
+			
+			
+//			OR
+//			if ( (i + j) % 2 == 0 ){
+//				printf("1 ");
+//			else
+//				printf("0 ");
+		
+		
+		}
+		printf("\n");
+	
+	}
+
+}
