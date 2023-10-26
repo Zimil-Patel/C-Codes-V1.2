@@ -30,26 +30,22 @@ void main(){
     scanf("%d", &stu1.stu_id);
     //name
     printf("Enter student name : ");
-    scanf(" %s", &stringInput);
-    strcpy(stu1.stu_name, stringInput);
+    scanf(" %[^\n]", &stu1.stu_name);
     //age
     printf("Enter student age : ");
     scanf(" %d", &stu1.stu_age);
     //course
     printf("Enter student course : ");
-    scanf("%s", &stringInput);
-    strcpy(stu1.stu_course, stringInput);
+    scanf(" %[^\n]", &stu1.stu_course);
     //city
     printf("Enter student city : ");
-    scanf("%s", &stringInput);
-    strcpy(stu1.stu_city, stringInput);
+    scanf(" %[^\n]", &stu1.stu_city);
     //standard
     printf("Enter student standard : ");
     scanf("%d", &stu1.stu_standard);
     //school
     printf("Enter student school name : ");
-    scanf("%s", &stringInput);
-    strcpy(stu1.stu_school, stringInput);
+    scanf(" %[^\n]", &stu1.stu_school);
 
     //getting student 2 details
     printf("---Enter Student_2 details---\n");
@@ -58,26 +54,22 @@ void main(){
     scanf("%d", &stu2.stu_id);
     //name
     printf("Enter student name : ");
-    scanf(" %s", &stringInput);
-    strcpy(stu2.stu_name, stringInput);
+    scanf(" %[^\n]", &stu2.stu_name);
     //age
     printf("Enter student age : ");
     scanf(" %d", &stu2.stu_age);
     //course
     printf("Enter student course : ");
-    scanf("%s", &stringInput);
-    strcpy(stu2.stu_course, stringInput);
+    scanf(" %[^\n]", &stu2.stu_course);
     //city
     printf("Enter student city : ");
-    scanf("%s", &stringInput);
-    strcpy(stu2.stu_city, stringInput);
+    scanf(" %[^\n]", &stu2.stu_city);
     //standard
     printf("Enter student standard : ");
     scanf("%d", &stu2.stu_standard);
     //school
     printf("Enter student school name : ");
-    scanf("%s", &stringInput);
-    strcpy(stu2.stu_school, stringInput);
+    scanf(" %[^\n]", &stu2.stu_school);
 
     //getting student 3 details
     printf("---Enter Student_3 details---\n");
@@ -86,26 +78,22 @@ void main(){
     scanf("%d", &stu3.stu_id);
     //name
     printf("Enter student name : ");
-    scanf(" %s", &stringInput);
-    strcpy(stu3.stu_name, stringInput);
+    scanf(" %[^\n]", &stu3.stu_name);
     //age
     printf("Enter student age : ");
     scanf(" %d", &stu3.stu_age);
     //course
     printf("Enter student course : ");
-    scanf("%s", &stringInput);
-    strcpy(stu3.stu_course, stringInput);
+    scanf(" %[^\n]", &stu3.stu_course);
     //city
     printf("Enter student city : ");
-    scanf("%s", &stringInput);
-    strcpy(stu3.stu_city, stringInput);
+    scanf(" %[^\n]", &stu3.stu_city);
     //standard
     printf("Enter student standard : ");
     scanf("%d", &stu3.stu_standard);
     //school
     printf("Enter student school name : ");
-    scanf("%s", &stringInput);
-    strcpy(stu3.stu_school, stringInput);
+    scanf(" %[^\n]", &stu3.stu_school);
 
     //printing student data
     printf("\n--------------------\n");
