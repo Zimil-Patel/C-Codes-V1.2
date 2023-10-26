@@ -10,7 +10,6 @@ Q.2 Write a Program to create an Employee Record System with an Array of objects
 */
 
 #include<stdio.h>
-#include<string.h>
 
 struct EmployeeData{
 
@@ -42,8 +41,6 @@ void main(){
 
     struct EmployeeData emp[n];
 
-    char str[20];
-
     for (short i = 0; i < n; i++){
     
     	printf("\n---Enter employee %d details---\n",i+1);
@@ -51,24 +48,20 @@ void main(){
         emp[i].emp_id = getValuesInt("id");
 
         getValuesString("name");
-        scanf("%s",&str);
-        strcpy(emp[i].emp_name,str);
+        scanf(" %[^\n]",&emp[i].emp_name);
 
         emp[i].emp_age = getValuesInt("Age");
 
         getValuesString("role");
-        scanf("%s",&str);
-        strcpy(emp[i].emp_role,str);
+        scanf(" %[^\n]",&emp[i].emp_role);
 
         getValuesString("city");
-        scanf("%s",&str);
-        strcpy(emp[i].emp_city,str);
+        scanf(" %[^\n]",&emp[i].emp_city);
 
         emp[i].emp_experience = getValuesInt("Experience");
 
         getValuesString("company name");
-        scanf("%s",&str);
-        strcpy(emp[i].emp_company_name,str);
+        scanf(" %[^\n]",&emp[i].emp_company_name);
 
     }
     
