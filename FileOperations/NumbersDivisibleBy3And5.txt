@@ -1,0 +1,4 @@
+Numbers between 1 to 50 which are divisible by 3 & 5 :
+15
+30
+45
