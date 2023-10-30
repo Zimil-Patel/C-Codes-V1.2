@@ -1,0 +1,35 @@
+
+Yuvi Vasava (61)
+Chemistry => 80
+Mathematics => 74
+Physics => 86
+Total => 240
+Percent => 80.00 %
+
+Patel Zimil (47)
+Chemistry => 58
+Mathematics => 74
+Physics => 80
+Total => 212
+Percent => 70.67 %
+
+Satyam JasanP (21)
+Chemistry => 80
+Mathematics => 80
+Physics => 80
+Total => 240
+Percent => 80.00 %
+
+Niraj Rajputd (52)
+Chemistry => 100
+Mathematics => 100
+Physics => 100
+Total => 300
+Percent => 100.00 %
+
+Malaysia WalN (60)
+Chemistry => 78
+Mathematics => 90
+Physics => 85
+Total => 253
+Percent => 84.33 %
