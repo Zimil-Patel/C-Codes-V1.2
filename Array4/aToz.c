@@ -9,7 +9,11 @@ void main(){
     for (int i = 0; i <= 25; i++)
         a[i] = i + 97;
 
+    printf("\n%s",a);
 
-    printf("%s",a);
+    for (int i = 0; i <= 25; i++)
+        a[i] = i + 65;
+
+    printf("\n%s",a);
 
 }
