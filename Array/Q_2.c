@@ -14,7 +14,7 @@ void main(){
 	
 	for (short i = 0; i < n; i++){
 	
-		printf("enter value of a[%hi] : ",i);
+		printf("Enter value of a[%hi] : ",i);
 		scanf("%hi", &a[i]);
 		average += a[i];	
 	}
