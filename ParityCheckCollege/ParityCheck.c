@@ -9,7 +9,8 @@ int getParity(int number){
         // parity = 1 - parity;
         // number = number & (number - 1);
         
-        parity = !parity;
+        if(parity&1)
+            parity = !parity;
         number = number >> 1;
         printf("\nNumber : %d", number);
 
