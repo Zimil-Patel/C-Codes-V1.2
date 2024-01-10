@@ -18,7 +18,6 @@ int getParity(int number){
 int main(){
 
     int number;
-    char choice = 'y';
 
     printf("\nEnter number : ");
     scanf("%d", &number);
