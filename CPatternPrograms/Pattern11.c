@@ -2,15 +2,10 @@
 int main(){
     
     for(int i = 1; i <= 5; i++){
-        int z = 1;
-        for(int j = 1; j <= 6; j++){
 
-            if (j % 2 == 0)
-                printf(" %2d", i);
-            else{
-                printf(" %2d", z);
-                z++;
-            }
+        for(int j = 1; j <= 3; j++){
+
+            printf(" %2d %2d", i, j);
 
         }
         printf("\n");
